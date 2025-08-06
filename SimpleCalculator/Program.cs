@@ -4,3 +4,12 @@ Console.WriteLine("        Simple Calculator        ");
 Console.WriteLine("=================================");
 Console.WriteLine("A basic console application for simple math operations.");
 
+Console.WriteLine("Developed by Bugeto.net");
+Console.WriteLine();     
+
+Console.WriteLine("This is the initial version. More features coming soon!");
+Console.WriteLine();
+
+ 
+Console.WriteLine("Press any key to exit...");
+Console.ReadKey();
