@@ -10,6 +10,7 @@ Console.WriteLine();
 Console.WriteLine("This is the initial version. More features coming soon!");
 Console.WriteLine();
 
- 
+// برنامه فعلاً هیچ عملیات محاسباتی انجام نمی‌دهد     
 Console.WriteLine("Press any key to exit...");
 Console.ReadKey();
+     
