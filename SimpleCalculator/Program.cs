@@ -2,3 +2,5 @@
 Console.WriteLine("=================================");
 Console.WriteLine("        Simple Calculator        ");
 Console.WriteLine("=================================");
+Console.WriteLine("A basic console application for simple math operations.");
+
