@@ -13,5 +13,11 @@ namespace SimpleCalculator
             Console.WriteLine($"[Sum] a={a}, b={b}");
             checked { return a + b; } // برای جلوگیری از سرریز
         }
+
+        public int Multiply(int a, int b)
+        {
+            Console.WriteLine($"[Multiply] a={a}, b={b}");
+            checked { return a * b; } // جلوگیری از سرریز
+        }
     }
 }
