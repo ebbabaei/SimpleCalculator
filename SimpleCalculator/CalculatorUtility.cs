@@ -10,7 +10,7 @@ namespace SimpleCalculator
     {
         public int Sum(int a, int b)
         {
-            return a + b;
+            checked { return a + b; } // برای جلوگیری از سرریز
         }
     }
 }
