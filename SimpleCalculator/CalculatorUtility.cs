@@ -10,6 +10,7 @@ namespace SimpleCalculator
     {
         public int Sum(int a, int b)
         {
+            Console.WriteLine($"[Sum] a={a}, b={b}");
             checked { return a + b; } // برای جلوگیری از سرریز
         }
     }
