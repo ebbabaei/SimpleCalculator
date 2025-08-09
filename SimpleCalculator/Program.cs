@@ -23,7 +23,7 @@ int num2 = int.Parse(Console.ReadLine());
 
 int result = calc.Sum(num1, num2);
 
-Console.WriteLine($"Sum: {result}");
+Console.WriteLine($"Total result: {result}");
 
 
 Console.WriteLine("Press any key to exit...");
