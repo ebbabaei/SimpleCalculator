@@ -19,5 +19,10 @@ namespace SimpleCalculator
             Console.WriteLine($"[Multiply] a={a}, b={b}");
             checked { return a * b; } // جلوگیری از سرریز
         }
+        public int Divide(int a, int b)
+        {
+            return a / b;
+        }
+
     }
 }
