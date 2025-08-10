@@ -20,10 +20,12 @@ int num1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Please enter the second number:");
 int num2 = int.Parse(Console.ReadLine());
+CalculatorUtility calc2 = new CalculatorUtility();
+int sumResult = calc.Sum(num1, num2);
+int subResult = calc.Subtract(num1, num2);
 
-int result = calc.Sum(num1, num2);
-
-Console.WriteLine($"Total result: {result}");
+Console.WriteLine($"Sum result: {sumResult}");
+Console.WriteLine($"Subtract result: {subResult}");
 
 
 Console.WriteLine("Press any key to exit...");
