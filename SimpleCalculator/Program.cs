@@ -25,6 +25,7 @@ int ReadInt(string prompt)
         if (int.TryParse(input, out var value))
             return value;
 
+
         Console.WriteLine("Invalid number. Please try again.");
     }
 }
@@ -51,6 +52,7 @@ try
         "4" => throw new NotImplementedException("This feature is under development."),
         _ => throw new ArgumentOutOfRangeException(nameof(choice), "Unknown operation.")
     };
+
 
     Console.WriteLine();
     Console.WriteLine($"Total result: {result}");
