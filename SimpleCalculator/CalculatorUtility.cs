@@ -24,6 +24,13 @@ namespace SimpleCalculator
             return a / b;
         }
 
+
+        /// <summary>
+        /// subtrac
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public int Subtract(int a, int b)
         {
             Console.WriteLine($"[Subtract] a={a}, b={b}");
