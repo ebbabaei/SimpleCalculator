@@ -24,5 +24,11 @@ namespace SimpleCalculator
             return a / b;
         }
 
+        public int Subtract(int a, int b)
+        {
+            Console.WriteLine($"[Subtract] a={a}, b={b}");
+            checked { return a - b; }
+        }
+
     }
 }
