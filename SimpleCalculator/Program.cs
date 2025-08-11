@@ -49,8 +49,7 @@ try
         "1" => calc.Sum(num1, num2),
         "2" => calc.Multiply(num1, num2),
         "3" => calc.Divide(num1, num2),
-        "4" => throw new NotImplementedException("This feature is under development."),
-        _ => throw new ArgumentOutOfRangeException(nameof(choice), "Unknown operation.")
+        "4" =>  calc.Subtract(num1, num2),
     };
 
 
