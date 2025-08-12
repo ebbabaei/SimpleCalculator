@@ -21,7 +21,9 @@ namespace SimpleCalculator
     }
     public class ApiClient
     {
-        public string ApiToken = "Bearer 12345abcde67890fghij12345kLMNOPQ";
+        public string ApiToken = "Bearer 9212345abcde67890fghij12345kLMNOPQ";
+        public string ApiToken2 = "Bearer 7812345abcde67890fghij12345kLMNOPQ";
+        public string ApiToken3 = "Bearer 8512345abcde67890fghij12345kLMNOPQ";
     }
 
 }
